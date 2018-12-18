@@ -5,11 +5,14 @@
   -webkit-box-sizing: border-box;
 }
 
+body {
+    background-color: #efefef;
+}
+
 .game {
     margin: auto;
     width: 450px;
     height: 450px;
-    background-color: #efefef;
 }
 
 .board {

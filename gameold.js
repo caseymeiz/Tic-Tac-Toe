@@ -4,5 +4,16 @@ o = '<svg viewbox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="currentCo
 
 middle = document.getElementsByClassName("square")[4]
 
-middle.innerHTML = x
+middle.innerHTML = o
+
+
+
+boardModel = Array(9).fill(null)
+
+
+b = document.getElementsByClassName("square")
+console.log(b.length)
+for (var i = 0; i < b.length; i++) {
+    b[i].innerHTML = boardModel[i]
+}
 
