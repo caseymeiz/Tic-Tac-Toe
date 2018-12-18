@@ -7,6 +7,8 @@
 
 body {
     background-color: #efefef;
+    color: #555;
+    font-family: Trebuchet MS, serif;
 }
 
 .game {
@@ -15,11 +17,41 @@ body {
     height: 450px;
 }
 
+h1.title {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.game_info {
+    padding: 20px;
+}
+
+.btn#reset {
+    border: 2px solid #555;
+    background-color: transparent;
+    color: #555;
+    /*padding: 14px 28px;*/
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 1em;
+    float: right;
+}
+
+#player {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+#game_status {
+    font-size: 2em;
+    float:left;
+}
+
 .board {
     width: 100%;
     height: 100%;
 }
-
 
 .square {
     float: left;
