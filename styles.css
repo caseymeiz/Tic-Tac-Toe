@@ -24,6 +24,7 @@ h1.title {
 
 .game_info {
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .btn#reset {

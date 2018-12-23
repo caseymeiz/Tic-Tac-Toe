@@ -50,7 +50,7 @@ export class UI {
                 document.getElementById("game_status").innerHTML = "Winner:<div id='player'>"+this.o+"</div>"
             }
         } else {
-            document.getElementById("game_status").innerHTML = "Turn:<div id='player'>"+player_id+"</div>"
+            document.getElementById("game_status").innerHTML = "Turn: <div id='player'>"+player_id+"</div>"
         }
     }
 }
