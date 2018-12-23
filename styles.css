@@ -35,6 +35,7 @@ h1.title {
     cursor: pointer;
     border-radius: 1em;
     float: right;
+    outline: 0;
 }
 
 #player {
