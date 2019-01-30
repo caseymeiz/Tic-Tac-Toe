@@ -2,6 +2,8 @@
 
 Simple tic tac toe game 
 
+![demo](splash.png)
+
 ## Requirements 
 
 - Node
